@@ -1,0 +1,56 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color:transparent; /* Optional: Add background color */
+}
+body{
+  background: url('http://img.freepk.com/premium-photo/soft-elegant-illustration-gift-boxes-tied-with-bows-surrounded-by-delicate-pastel-pin_924727-75551.jpg?size=626&ext=jpg&ga=GA1.1.453244607.1724063777&semt=ais_hybrid');
+  background-size: cover;
+}
+.form {
+  background: #3778b46a;  
+padding-left: 20px;
+padding-right: 30px;
+padding-bottom: 20px;
+padding-top: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px; 
+}
+
+.form h2 {
+  margin: 0 0 20px;
+}
+
+.form label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 40px;
+}
+
+.form button {
+  padding: 10px 20px;
+ 
+  border: none;
+  border-radius: 4px;
+  background-color: #0c51b1;
+  color: #cdd0d4;
+  cursor: pointer;
+}
+
+.form button:hover {
+  background-color: #18b83b;
+}
+.form p{
+  font-size: small;
+}
